@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main() {
     int a, b, hcf;
-    printf("Enter a number: ");
+    printf("Enter two numbers separated by space ");
     scanf("%d%d", &a, &b);
     int min = (a < b) ? a : b;
     for (int i = 1; i <= min; i++) {

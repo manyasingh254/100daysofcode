@@ -1,4 +1,4 @@
-//Write a program to find the product of odd digits of a number.
+//Write a program to find the product of odd digits of a number
 #include <stdio.h>
 int main() {
     int n, prod = 1, found = 0, rem;
